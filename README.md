@@ -1,6 +1,7 @@
 # AIonZ
-Playing with ML Models on IBM System Z
-
+Playing with ML Models on IBM System Z. 
+    
+     
 ## Outline:
 1. Create an AI model on Z
 2. Run the model
