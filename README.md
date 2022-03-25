@@ -66,11 +66,14 @@ Python Program: tf_lab1_home_prices.py
 
 
 ## Run the Program
+```
 $ ssh ubuntu@<IP Address of Your VM>
 $ docker run -it --rm -v $PWD:/tmp -w /tmp icr.io/ibmz/tensorflow:2.5.0 python ./tf_lab1_home_prices.py
+```
 
   The output would look something like this:
 
+```
   2022-03-08 19:47:05.090768: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
   2022-03-08 19:47:05.091975: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 10940500000 Hz
   
@@ -101,6 +104,8 @@ $ docker run -it --rm -v $PWD:/tmp -w /tmp icr.io/ibmz/tensorflow:2.5.0 python .
 
 
   For x=7, the model predicted y=[[4.037854]]
+  ```
+  
   The price of the house is around $403,785.41
 
 
