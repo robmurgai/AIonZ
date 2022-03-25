@@ -6,6 +6,8 @@
 - Log into IBM Cloud [cloud.ibm.com](http://cloud.ibm.com/) with your IBM ID. If you don't have an ID already, please create one.
 - Get or Create an API Key on IBM Cloud using the Manage pulldown on top to navigate to the Access (IAM) interface. 
 - From there, choose API keys on the left navigation, and then Create an IBM Cloud API key. You should see a window for naming and describing your access key.
+
+![IBM API Key](Lab%201%20image%200.png)
 - Once created, you can download the JSON file that looks something like this: 
 ```
 {
